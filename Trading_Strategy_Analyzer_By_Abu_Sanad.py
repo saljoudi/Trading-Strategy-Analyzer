@@ -428,5 +428,5 @@ def process_stock(df, stock_symbol, sma_short, sma_long, rsi_threshold, adl_shor
     }
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)              # ✅ works with current Dash
     
